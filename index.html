@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello Test</title>
+  </head>
+  <body>
+    <button id="helloButton">Say hello</button>
+
+    <script type="module">
+      import { buttonClicked } from './scripts/helloButtonHandler.js';
+      document.getElementById("helloButton").onclick = buttonClicked;
+    </script>
+
+  </body>
+</html>
